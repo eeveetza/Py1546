@@ -28,7 +28,7 @@ The function `P1546.bt_loss` computes the basic transmission loss and can be cal
 
 1. by invoking only the first nine required input arguments:
 ~~~ 
-E, Lb = P1546.bt_loss(f,t,heff,h2,R2,area,d_v,path_c,pathinfo);
+E, Lb = P1546.bt_loss(f,t,heff,h2,R2,area,d_v,path_c,pathinfo)
 ~~~
 2. by explicitly invoking all the input arguments:
 ~~~
