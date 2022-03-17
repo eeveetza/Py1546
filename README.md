@@ -6,7 +6,7 @@ This version of the code corresponds to the reference version of the code approv
 
 The package can be downloaded and installed using:
 ~~~
-python -m pip install "git+https://github.com/eeveetza/Py1546/#egg=Py1546"   
+python -m pip install "git+https://github.com/eeveetza/Py1546@dev#egg=Py1546"    
 ~~~
 
 and imported as follows
@@ -24,11 +24,11 @@ from Py1546 import P1546
 
 ## Function Call
 
-The function `P1546.bt_loss` can be called
+The function `P1546.bt_loss` computes the basic transmission loss and can be called:
 
 1. by invoking only the first nine required input arguments:
 ~~~ 
-E, Lb = P1546.bt_loss(f,t,heff,h2,R2,area,d_v,path_c,pathinfo);
+E, Lb = P1546.bt_loss(f,t,heff,h2,R2,area,d_v,path_c,pathinfo)
 ~~~
 2. by explicitly invoking all the input arguments:
 ~~~
