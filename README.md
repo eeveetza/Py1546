@@ -24,7 +24,7 @@ from Py1546 import P1546
 
 ## Function Call
 
-The function `P1546.bt_loss` can be called
+The function `P1546.bt_loss` computes the basic transmission loss and can be called:
 
 1. by invoking only the first nine required input arguments:
 ~~~ 
